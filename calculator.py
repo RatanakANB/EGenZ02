@@ -49,9 +49,8 @@ def factorial(n):
     # TODO: {#{9}} Member 06: Implement factorial
     result = math.factorial(int(n))
     log_action("factorial", result)
-    reaturn result
+    return result
     
->>>>>>> 3d23a63 (feat: implement factorial() {#{9}})
 
 def absolute(a):
     # TODO: {#{11}} Member 06: Implement absolute value
