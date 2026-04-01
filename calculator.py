@@ -2,36 +2,44 @@ import math
 from logger import log_action
 
 def add(a, b):
-    pass
+    result = a + b
+    log_action("add", result)
+    return result
 
 def subtract(a, b):
-    # TODO: {#{2}} Member 02: Implement subtraction
-    pass
+    result = a - b 
+    log_action("subtract", result)
+    return result
 
 def multiply(a, b):
     # TODO: {#{5}} Member 02: Implement multiplication
     pass
 
 def divide(a, b):
-    # TODO: {#{4}} Member 03: Implement division
-    # Note: Member 03 needs to handle ZeroDivisionError
-    pass
+    if (b==0):
+        raise ValueError ("Cannot divide by Zero")
+    result = a/b
+    log_action("divide", result)
+    return result
 
 def power(a, b):
     # TODO: {#{6}} Member 03: Implement power (a^b)
     pass
 
 def sum_n(*args):
-    # TODO: {#{3}} Member 04: Implement sum of n numbers
-    pass
+    result = sum(args)
+    log_action("sum_n", result)
+    return result
 
 def logarithm(a, base=10):
     # TODO: {#{7}} Member 04: Implement logarithm
     pass
 
 def modulo(a, b):
-    # TODO: {#{8}} Member 05: Implement modulo
-    pass
+#{8}} Member 05: Implement modulo
+    result = a % b
+    log_action("modulo", result)
+    return result    
 
 def sq_root(a):
     # TODO: {#{10}} Member 05: Implement square root
@@ -39,7 +47,10 @@ def sq_root(a):
 
 def factorial(n):
     # TODO: {#{9}} Member 06: Implement factorial
-    pass
+    result = math.factorial(int(n))
+    log_action("factorial", result)
+    return result
+    
 
 def absolute(a):
     # TODO: {#{11}} Member 06: Implement absolute value
