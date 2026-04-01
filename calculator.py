@@ -36,8 +36,10 @@ def logarithm(a, base=10):
     pass
 
 def modulo(a, b):
-    # TODO: {#{8}} Member 05: Implement modulo
-    pass
+#{8}} Member 05: Implement modulo
+    result = a % b
+    log_action("modulo", result)
+    return result    
 
 def sq_root(a):
     # TODO: {#{10}} Member 05: Implement square root
