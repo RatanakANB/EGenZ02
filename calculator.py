@@ -15,9 +15,11 @@ def multiply(a, b):
     pass
 
 def divide(a, b):
-    # TODO: {#{4}} Member 03: Implement division
-    # Note: Member 03 needs to handle ZeroDivisionError
-    pass
+    if (b==0):
+        raise ValueError ("Cannot divide by Zero")
+    result = a/b
+    log_action("divide", result)
+    return result
 
 def power(a, b):
     # TODO: {#{6}} Member 03: Implement power (a^b)
