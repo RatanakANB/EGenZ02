@@ -49,12 +49,6 @@ def factorial(n):
     # TODO: {#{9}} Member 06: Implement factorial
     result = math.factorial(int(n))
     log_action("factorial", result)
-<<<<<<< HEAD
-    return result
-
-   
-
-=======
     reaturn result
     
 >>>>>>> 3d23a63 (feat: implement factorial() {#{9}})
