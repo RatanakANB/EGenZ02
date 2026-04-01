@@ -39,7 +39,10 @@ def sq_root(a):
 
 def factorial(n):
     # TODO: {#{9}} Member 06: Implement factorial
-    pass
+    result = math.factorial(int(n))
+    log_action("factorial", result)
+    reaturn result
+    
 
 def absolute(a):
     # TODO: {#{11}} Member 06: Implement absolute value
