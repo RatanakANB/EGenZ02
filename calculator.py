@@ -17,7 +17,7 @@ def multiply(a, b):
 
 def divide(a, b):
     if (b==0):
-        raise ValueError ("Cannot divide by zero")
+        raise ValueError ("Cannot divide by 0")
     result = a/b
     log_action("divide", result)
     return result
