@@ -7,8 +7,9 @@ def add(a, b):
     return result
 
 def subtract(a, b):
-    # TODO: {#{2}} Member 02: Implement subtraction
-    pass
+    result = a - b 
+    log_action("subtract", result)
+    return result
 
 def multiply(a, b):
     # TODO: {#{5}} Member 02: Implement multiplication
