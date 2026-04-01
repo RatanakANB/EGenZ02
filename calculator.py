@@ -49,7 +49,7 @@ def factorial(n):
     # TODO: {#{9}} Member 06: Implement factorial
     result = math.factorial(int(n))
     log_action("factorial", result)
-    reaturn result
+    return result
     
 
 def absolute(a):
