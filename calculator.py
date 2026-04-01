@@ -50,7 +50,9 @@ def factorial(n):
     result = math.factorial(int(n))
     log_action("factorial", result)
     return result
-    
+
+   
+
 
 def absolute(a):
     # TODO: {#{11}} Member 06: Implement absolute value
