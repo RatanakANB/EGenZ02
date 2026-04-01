@@ -27,8 +27,9 @@ def power(a, b):
     pass
 
 def sum_n(*args):
-    # TODO: {#{3}} Member 04: Implement sum of n numbers
-    pass
+    result = sum(args)
+    log_action("sum_n", result)
+    return result
 
 def logarithm(a, base=10):
     # TODO: {#{7}} Member 04: Implement logarithm
